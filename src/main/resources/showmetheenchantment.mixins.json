@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.rinko1231.showmetheenchantment.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "showmetheenchantment.refmap.json",
+  "mixins": [
+    "EnchantmentScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
